@@ -26,11 +26,17 @@ To use the script:
 
 
 **appName**         : This is the display name.  Used in a friendly message to the user.
+
 **packageGUID**     : The App-V Package GUID.  Used to build the path to the App-V Package
+
 **versionGUID**     : The App-V Version GUID.  Used to build the path to the App-V package
+
 **exeToLaunch**     : Path to the EXE to launch when the script is run, typically points to the EXE in the App-V Package
+
 **exeWorkingDir**   : The path to launch the EXE from 
+
 **exeParameters**   : Any paramaters that should be passed to the EXE when it's launched
+
 
 
 3. Save the new file as a new VBS file.
@@ -55,15 +61,11 @@ Publishing Refresh is complete.
 Some Questions:
 
 **Why vbscript?**
-
 When publishing applications to a user, startup speed is very important.  When using powershell, there are delays introduced.  By using vbscript, we can 
 reduce the amount of delays that are introduced by running a script before the application starts.
 
 
 **Why hardcode the values?  Why not pass them on the command line?**
-
 The average App-V path is long.  REALLY long.  By the time you add all the options that you want to a command line, you can quickly hit the limit of
 most places where you would enter a command line (ie, a published application command line in a Citrix environment).  Hardcoding has it's own problems, 
 but allows a much smaller command line.  
-
-<>
