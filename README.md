@@ -18,7 +18,7 @@ To use the script:
 ```vb
     appName       = "<your application name>"
     packageGUID   = "<your package GUID>"
-    versionGUID   = "<your version GUID>
+    versionGUID   = "<your version GUID>"
     exeToLaunch   = chr(34) & getAppvRoot & "\" & packageGUID & "\" & versionGUID & "\Root\VFS\myfolder\pathtoyour.exe"
     exeWorkingDir = getAppvRoot & "\" & packageGUID & "\" & versionGUID & "\Root\VFS\myfolder"
     exeParameters = ""      
