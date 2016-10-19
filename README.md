@@ -38,14 +38,6 @@ To use the script:
 **exeParameters**   : Any paramaters that should be passed to the EXE when it's launched  
 
 =======
-  *appName*         : **This is the display name.  Used in a friendly message to the user.**
-  *packageGUID*     : **The App-V Package GUID.  Used to build the path to the App-V Package**
-  *versionGUID*     : **The App-V Version GUID.  Used to build the path to the App-V package**
-  *exeToLaunch*     : **Path to the EXE to launch when the script is run, typically points to the EXE in the App-V Package**
-  *exeWorkingDir*   : **The path to launch the EXE from** 
-  *exeParameters*   : **Any paramaters that should be passed to the EXE when it's launched**
-
-
 
 
 3. Save the new file as a new VBS file.
