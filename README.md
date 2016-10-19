@@ -24,8 +24,7 @@ To use the script:
     exeParameters = ""      
 ``` 
 
-
-<<<<<<< HEAD
+=======
 **appName**         : This is the display name.  Used in a friendly message to the user.  
 
 **packageGUID**     : The App-V Package GUID.  Used to build the path to the App-V Package  
@@ -45,7 +44,7 @@ To use the script:
   *exeToLaunch*     : **Path to the EXE to launch when the script is run, typically points to the EXE in the App-V Package**
   *exeWorkingDir*   : **The path to launch the EXE from** 
   *exeParameters*   : **Any paramaters that should be passed to the EXE when it's launched**
->>>>>>> 739f07b23e3eceefc64d8d731abfe38bb867cc32
+
 
 
 
